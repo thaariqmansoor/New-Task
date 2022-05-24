@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+      
+      
+    .Parent-Container {
+      height: 100vh;
+      width: 100vw;
+      margin: 5px;
+    }
+
+    .heading {
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-top: 10px;
+      }
+    
+    
+    .FormFill-Container {
+      display: flex;
+      }
+    
+    .Required-Detail-Labels  {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+      
+      
+    .Required-Detail-Labels > div  {
+        height: 20px;
+        margin: 5px;
+        width: 100px;
+    }
+     
+     .Details-Filler  {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+      
+    .Details-Filler > div  {
+      height: 20px;
+      margin: 5px;
+      width: 100px;
+    }
+    
+      .Button {
+      margin: 45px;
+    }
+    
